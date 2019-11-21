@@ -41,7 +41,7 @@
 
    ​		<img src="http://latex.codecogs.com/gif.latex?p_i=\frac{f_i}{\Sigma{f_i}}" title="p_i=\frac{f_i}{\Sigma{f_i}}" />
 
-   其中<img src="http://latex.codecogs.com/gif.latex?$p_i$" title="$p_i$" />代表第$i$个体被选择的概率，$f_i$代表第$i$个体的适应度，也就是一般问题中需要求解的函数值。
+   其中$p_i$代表第$i$个体被选择的概率，$f_i$代表第$i$个体的适应度，也就是一般问题中需要求解的函数值。
 
    - 杂交策略-均匀杂交
 
@@ -67,19 +67,19 @@ min\prod^n_{i=1}\sum^5_{j=1}jcos[(j+1)x_i+j]
 
    - 算法结果部分n=1截图
 
-     ![](D:\GitHub_repos\Evolutionary-Computation-----\1574307883111.png)
+     ![](1574307883111.png)
 
    - n=2截图
 
-     ![](D:\GitHub_repos\Evolutionary-Computation-----\1574307923972.png)
+     ![](1574307923972.png)
 
    - n=3截图
 
-     ![](D:\GitHub_repos\Evolutionary-Computation-----\1574307933912.png)
+     ![](1574307933912.png)
 
    - n=4截图
 
-     ![](D:\GitHub_repos\Evolutionary-Computation-----\1574308015035.png)
+     ![](1574308015035.png)
 
    ## 粒子群算法
 
@@ -93,7 +93,7 @@ min\prod^n_{i=1}\sum^5_{j=1}jcos[(j+1)x_i+j]
 
    ### 算法步骤
 
-   ![](D:\GitHub_repos\Evolutionary-Computation-----\1574307837145.png)
+   ![](1574307837145.png)
 
    ### 例题以及求解代码
 
@@ -103,7 +103,7 @@ min\prod^n_{i=1}\sum^5_{j=1}jcos[(j+1)x_i+j]
 
    - 结果截图
 
-     ![](D:\GitHub_repos\Evolutionary-Computation-----\1574308081642.png)
+     ![](1574308081642.png)
    
    ## 参考文献
    
