@@ -41,7 +41,7 @@
 
    ​		<img src="http://latex.codecogs.com/gif.latex?p_i=\frac{f_i}{\Sigma{f_i}}" title="p_i=\frac{f_i}{\Sigma{f_i}}" />
 
-   其中$p_i$代表第$i$个体被选择的概率，$f_i$代表第$i$个体的适应度，也就是一般问题中需要求解的函数值。
+   其中<img src="http://latex.codecogs.com/gif.latex?$p_i$" title="$p_i$" />代表第$i$个体被选择的概率，$f_i$代表第$i$个体的适应度，也就是一般问题中需要求解的函数值。
 
    - 杂交策略-均匀杂交
 
@@ -56,6 +56,8 @@
    $$
 min\prod^n_{i=1}\sum^5_{j=1}jcos[(j+1)x_i+j]
    $$
+
+   <img src="http://latex.codecogs.com/gif.latex?min\prod^n_{i=1}\sum^5_{j=1}jcos[(j&plus;1)x_i&plus;j]" title="min\prod^n_{i=1}\sum^5_{j=1}jcos[(j+1)x_i+j]" />
 
    其中 $-10\leq{x_i}\le10,i=1,2,...,n$，当n=1、 2、 3和4时分别有3、 18、 81和324 个不同的全局最优解。做n=1的情况，至少要得到一个全局最优解，可用十进制编码也可用二进制编码。用二进制编码时至少精确到小数点后2位，用十进制编码时至少精确到小数点后8位。  
 
@@ -102,7 +104,7 @@ min\prod^n_{i=1}\sum^5_{j=1}jcos[(j+1)x_i+j]
    - 结果截图
 
      ![](D:\GitHub_repos\Evolutionary-Computation-----\1574308081642.png)
-
+   
    ## 参考文献
    
    1.  [https://zh.wikipedia.org/wiki/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95](https://zh.wikipedia.org/wiki/遗传算法) 访问时间：2019年11月21日
